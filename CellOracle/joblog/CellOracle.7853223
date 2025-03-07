@@ -1,0 +1,14 @@
+Job 7853223 started on:    n7677
+Job 7853223 started on:    Fri Mar 7 13:07:57 PST 2025
+ 
+Loading R/4.2.2
+  Loading requirement: intel/2020.4
+1 package does not meet CellOracle requirement.
+ Your igraph version is 0.9.11. Please install igraph>=0.10.1
+Traceback (most recent call last):
+  File "/u/project/xyang123/skikuchi/math168/CellOracle/buildGRN.py", line 15, in <module>
+    GENE = sys.argv[1]
+IndexError: list index out of range
+Job 7853223.undefined ended on:    n7677
+Job 7853223.undefined ended on:    Fri Mar 7 13:09:55 PST 2025
+ 

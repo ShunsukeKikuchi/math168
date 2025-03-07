@@ -1,0 +1,16 @@
+Job 7853251 started on:    n7677
+Job 7853251 started on:    Fri Mar 7 13:16:24 PST 2025
+ 
+Loading R/4.2.2
+  Loading requirement: intel/2020.4
+... storing 'louvain' as categorical
+1 package does not meet CellOracle requirement.
+ Your igraph version is 0.9.11. Please install igraph>=0.10.1
+Cell number is :23197
+Gene number is :33091
+Loading prebuilt promoter base-GRN. Version: hg19_gimmemotifsv5_fpr2
+Metadata columns : ['nCount_RNA', 'nFeature_RNA', 'percent.mt', 'SORT', 'Amyloid', 'Age', 'RIN', 'nCount_SCT', 'nFeature_SCT', 'nCount_Exon', 'nFeature_Exon', 'PMI', 'Braak', 'Sample.ID', 'Cell.Types', 'tissue_ontology_term_id', 'assay_ontology_term_id', 'disease_ontology_term_id', 'cell_type_ontology_term_id', 'development_stage_ontology_term_id', 'self_reported_ethnicity_ontology_term_id', 'sex_ontology_term_id', 'is_primary_data', 'organism_ontology_term_id', 'donor_id', 'suspension_type', 'tissue_type', 'cell_type', 'assay', 'disease', 'organism', 'sex', 'tissue', 'self_reported_ethnicity', 'development_stage', 'observation_joinid']
+Dimensional reduction:  ['X_pca', 'X_umap']
+33091 genes were found in the adata. Note that Celloracle is intended to use around 1000-3000 genes, so the behavior with this number of genes may differ from what is expected.
+Found No overlap between TF info (base GRN) and your scRNA-seq data. Please check your data format and species.
+  0%|          | 0/178 [00:00<?, ?it/s]100%|██████████| 178/178 [00:00<00:00, 79780.52it/s]

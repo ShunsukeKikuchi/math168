@@ -1,0 +1,13 @@
+[project]
+name = "math168"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jupyter>=1.1.1",
+    "loompy>=3.0.8",
+    "pandas>=2.2.3",
+    "polars>=1.24.0",
+    "scanpy>=1.10.3",
+]
